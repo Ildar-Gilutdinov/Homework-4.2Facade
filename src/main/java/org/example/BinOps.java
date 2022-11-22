@@ -16,6 +16,6 @@ public class BinOps {
       обратно в двоичную запись*/
         int binStrA = Integer.parseInt(a, 2);
         int binStrB = Integer.parseInt(b, 2);
-        return Integer.toBinaryString (binStrA * binStrB);
+        return Integer.toBinaryString(binStrA * binStrB);
     }
 }
